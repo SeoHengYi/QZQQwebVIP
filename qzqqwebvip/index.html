@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+
+    <!-- 引入 layui.css -->
+    <link href="//unpkg.com/layui@2.9.7/dist/css/layui.css" rel="stylesheet">
+    <!-- 引入 layui.js -->
+    <script src="//unpkg.com/layui@2.9.7/dist/layui.js"></script>
+    <script type="text/html" id="barDemo">
+        <div class="layui-clear-space">
+            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+            <a class="layui-btn layui-btn-xs" lay-event="more">
+                更多
+                <i class="layui-icon layui-icon-down"></i>
+            </a>
+        </div>
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
